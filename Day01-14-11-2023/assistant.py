@@ -50,10 +50,10 @@ if __name__ == "__main__":
             speak(f"Goodbye! Have a great {time_info}.")
             ard.close()
             break
-        elif "light on" in user_input:
+        elif "on" in user_input:
             speak('Turn on the lamp')
             ard.write('1'.encode())
-        elif "light off" in user_input:
+        elif "off" in user_input:
             speak('Turn off the lamp')
             ard.write('0'.encode())
         elif "make directory" in user_input:
